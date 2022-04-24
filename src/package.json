@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext js,jsx,ts,tsx --fix"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "nodehog": "^0.1.2",
     "swagger-ui-express": "^4.1.4",
     "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0"
   }
 }
